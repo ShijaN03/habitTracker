@@ -10,4 +10,24 @@ class Builder {
         
         return view
     }
+    
+    static func buildHabitsView() -> UIViewController {
+        
+        let view = HabitsView()
+        let presenter = HabitsPresenter(view: view)
+        view.presenter = presenter
+        
+        return view
+    }
+    
+    static func buildStatisticsView() -> UIViewController {
+        
+        let view = StatisticsView()
+        let presenter = StatisticsPresenter(view: view)
+        view.presenter = presenter
+        
+        return view
+    }
+    
+    
 }
