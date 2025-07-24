@@ -13,4 +13,5 @@ class HabitsView: UIViewController, HabitsViewProtocol {
         
         view.backgroundColor = .gray
     }
+    
 }
