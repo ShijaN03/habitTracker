@@ -7,10 +7,11 @@ protocol StatisticsViewProtocol: AnyObject {
 class StatisticsView: UIViewController, StatisticsViewProtocol {
     
     var presenter: StatisticsPresenterProtocol!
+    private let headTitleShapeLayer = CAShapeLayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .darkGray
+        view.backgroundColor = .lightGray
     }
 }

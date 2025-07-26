@@ -3,7 +3,7 @@ import UIKit
 extension UIColor {
     
     static var tabBarBackgroundColor: UIColor {
-        return #colorLiteral(red: 0.07843136042, green: 0.07843136042, blue: 0.07843136042, alpha: 1)
+        return #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
     }
     
     static var tabBarSelectedItemColor: UIColor {
@@ -12,5 +12,9 @@ extension UIColor {
     
     static var tabBarItemColor: UIColor {
         return #colorLiteral(red: 0.6666666865, green: 0.6666666865, blue: 0.6666666865, alpha: 1)
+    }
+    
+    static var headViewColor: UIColor {
+        return #colorLiteral(red: 0.3333333433, green: 0.3333333433, blue: 0.3333333433, alpha: 1)
     }
 }
